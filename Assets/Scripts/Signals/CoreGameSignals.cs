@@ -28,7 +28,7 @@ namespace Signals
         public UnityAction onNextLevel = delegate{  };
         public UnityAction onRestartLevel = delegate{  };
         public UnityAction onReset= delegate{  };
-        public Func<byte>onGetLevelValue = delegate {  };
+        public Func<byte> onGetLevelValue = delegate { return 0;};
         
         
         
